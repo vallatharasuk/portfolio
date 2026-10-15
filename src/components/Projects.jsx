@@ -3,6 +3,14 @@ import TiltSurface from "./TiltSurface";
 
 const projects = [
   {
+    name: "Video Generator",
+    blurb:
+      "Local text-to-video window for a 4 GB GPU. It streams LTX-2.3 through system memory, and a start frame plus an end frame lets a clip animate from one picture to the other.",
+    tags: ["Python", "PyTorch", "LTX-2.3", "Local AI"],
+    href: "https://github.com/vallatharasuk/video-generator",
+    accent: "from-tide-500/15 to-transparent",
+  },
+  {
     name: "POS Management System",
     blurb:
       "End-to-end point of sale covering billing, inventory, customers, thermal printing, payments, and sales reporting.",
@@ -93,6 +101,16 @@ export default function Projects() {
                           </li>
                         ))}
                       </ul>
+                      {project.href ? (
+                        <a
+                          href={project.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="mt-3 inline-block text-sm font-medium text-tide-700 hover:text-tide-500"
+                        >
+                          View on GitHub
+                        </a>
+                      ) : null}
                     </div>
                   </div>
                 </article>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const groups = [
   {
     title: "Languages",
-    items: ["PHP", "JavaScript", "Dart", "HTML5", "CSS3", "SQL"],
+    items: ["PHP", "JavaScript", "Dart", "Python", "HTML5", "CSS3", "SQL"],
   },
   {
     title: "Frontend",
@@ -31,6 +31,7 @@ const groups = [
       "Business software",
       "Performance",
       "AI research",
+      "Local video models",
       "Prompt engineering",
       "Automation",
     ],

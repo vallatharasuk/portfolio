@@ -14,7 +14,7 @@ Vallatharasu Katturaja is a Junior Full Stack Developer with over two years of e
 
 ## Skills
 
-- Languages: PHP, JavaScript, Dart, HTML5, CSS3, SQL
+- Languages: PHP, JavaScript, Dart, Python, HTML5, CSS3, SQL
 - Frontend: Flutter, React, Bootstrap, Tailwind CSS, jQuery
 - Backend: Laravel, Node.js, Express.js, REST APIs, authentication
 - Databases: MySQL, MongoDB, SQLite, Microsoft SQL Server
@@ -22,6 +22,7 @@ Vallatharasu Katturaja is a Junior Full Stack Developer with over two years of e
 
 ## Projects
 
+- Video Generator — local text-to-video on a 4 GB GPU, streaming LTX-2.3 with start and end frames. https://github.com/vallatharasuk/video-generator
 - POS Management System — billing, inventory, customers, thermal printers, payments, reporting
 - Inventory Management System — products, purchases, stock, suppliers, warehouses, analytics
 - Delivery Management System — order assignment, tracking, status workflows
